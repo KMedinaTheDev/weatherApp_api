@@ -1,15 +1,15 @@
 *{
   color: white;
+  font-family: 'Berkshire Swash', cursive;
 }
 body{
   background: url("cat.gif") no-repeat;
   background-size: cover;
   background-position: top;
-  background-color: rgba(23, 19, 218, 0.78);
-  margin: 5%;
+  /* margin: 5%; */
 }
 h1{
-  margin: 5% 0 2% 35%;
+  margin: 5% 0 2% 45%;
   font-size: 4em;
   font-weight: bold;
   border-bottom: 2px solid blue;
@@ -18,22 +18,42 @@ h1{
 h2{
   font-size: 2.5em;
 }
+/* h3{
+  font-size: 2em;
+  margin:5% 0 0 45%;
+} */
 
 h5{
-  margin: 20% 0 0 40%;
+  margin: 5% 0 0 35%;
 
 }
-
-h2, span{
-  margin: 2% 0 2% 35%;
-
+span + span{
+  margin: 2% 0 2% 25%;
+  font-size: 1.4em;
+  color: rgb(10, 33, 156);
 }
-section{
-  width:50%;
-  margin-left: 30%;
-}
+
 span{
   color:red;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.7em;
+  margin: 2% 0 5% 5%;
+}
+table{
+  margin: 2% 0 0 15%;
+  border: 2px solid rgba(214, 166, 22, 0.55);
+}
+
+th, td {
+  border: 1px solid rgba(214, 166, 22, 0.55);
+}
+th{
+  font-size: 1.6em;
+}
+td{
+  font-size: 1.4em;
+}
+.weatherContain{
+  margin-left: 45%;
+  background-color: rgba(113, 165, 237, 0.4);
 }

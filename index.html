@@ -1,19 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>What's The Weather Like</title>
+  <title>What's The Weather?</title>
+  <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>A Simple Weather App</h1>
 
-  <section>
+  <h1>.:What's The Weather?:.</h1>
 
-    <h2 id="temperature"></h2>
-    <h2 id="highsLows"></h2>
+  <section class="weatherContain">
+
+    <table>
+      <tr>
+        <th id="location">Location</th>
+        <th>Fahrenheit</th>
+        <th>Celsius</th>
+      </tr>
+      <tr>
+        <td id="humidity"></td>
+        <td id="temperatureF"></td>
+        <td id="temperatureC"></td>
+      </tr>
+      <tr>
+        <td>Today's High:</td>
+        <td id="highsF"></td>
+        <td id="highsC"></td>
+      </tr>
+      <tr>
+        <td>Today's Low:</td>
+        <td id="lowsF"></td>
+        <td id="lowsC"></td>
+      </tr>
+    </table>
+    <span>Instructions: Enter a <strong>City</strong> AND <strong>Country</strong> to see the current weather.</span>
+    <span>Example: Boston, USA or London, UK</span>
+    <h5>Created By: KMedinaTheDev</h5>
   </section>
-  <span>Instructions: Enter the City and State to see the current weather.</span>
-  <h5>Created By: KMedinaTheDev</h5>
+
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="main.js" type="text/javascript" charset="utf-8" async defer></script>
 
