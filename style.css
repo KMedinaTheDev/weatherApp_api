@@ -2,12 +2,13 @@
   color: white;
   font-family: 'Berkshire Swash', cursive;
 }
+
 body{
   background: url("cat.gif") no-repeat;
   background-size: cover;
   background-position: top;
-  /* margin: 5%; */
 }
+
 h1{
   margin: 5% 0 2% 45%;
   font-size: 4em;
@@ -18,15 +19,12 @@ h1{
 h2{
   font-size: 2.5em;
 }
-/* h3{
-  font-size: 2em;
-  margin:5% 0 0 45%;
-} */
 
 h5{
   margin: 5% 0 0 35%;
 
 }
+
 span + span{
   margin: 2% 0 2% 25%;
   font-size: 1.4em;
@@ -39,6 +37,7 @@ span{
   font-size: 1.7em;
   margin: 2% 0 5% 5%;
 }
+
 table{
   margin: 2% 0 0 15%;
   border: 2px solid rgba(214, 166, 22, 0.55);
@@ -47,12 +46,15 @@ table{
 th, td {
   border: 1px solid rgba(214, 166, 22, 0.55);
 }
+
 th{
   font-size: 1.6em;
 }
+
 td{
   font-size: 1.4em;
 }
+
 .weatherContain{
   margin-left: 45%;
   background-color: rgba(113, 165, 237, 0.4);

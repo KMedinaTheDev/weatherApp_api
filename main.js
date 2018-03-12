@@ -9,7 +9,6 @@
 
 */
 
-
 $(document).ready(function(){
 var city = prompt("Enter Your City:"); //variables hold the user's input
 var country = prompt("Enter Your Country:");
@@ -23,10 +22,8 @@ if (city === "" || country === "") {
     alert("OOPS! You Must Enter A City & A Country!")
 };
 
-
 var weatherUrl = "http://api.openweathermap.org/data/2.5/weather?q=";
 var apiKey = ""; //your key will go here!
-
 
   $.ajax({
     url: weatherUrl+city+","+country+"&appid="+apiKey,
@@ -64,8 +61,6 @@ var apiKey = ""; //your key will go here!
       $('#highsC').html(tempHigh3 +" C");
       $('#lowsC').html(tempMin3+ " C");
 
-
     }
-
 
 });

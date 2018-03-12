@@ -31,4 +31,4 @@ Humidity levels are extremely influential, this bonus feature can be quite usefu
 
 ## Improvements to Be Made:
 
-With more time I would make this app fully responsive to for all devices.
+With more time I would make this app fully responsive for use on all devices.
